@@ -18,7 +18,7 @@ public class AnjingActivity extends AppCompatActivity {
     List<Anjing> anjings;
     int indeksTampil = 0;
     Button btnPertama,btnTerakhir,btnSebelumnya,btnBerikutnya;
-    TextView txJenis,txAsal,txDeskripsi,txJudul;
+    TextView txAsal,txDeskripsi,txJudul;
     ImageView ivFotoHewan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,6 @@ public class AnjingActivity extends AppCompatActivity {
     private void tampilkanProfil() {
         Anjing k = anjings.get(indeksTampil);
         Log.d("ANJING","Menampilkan anjing "+k.getJenis());
-        txJenis.setText(k.getJenis());
         txAsal.setText(k.getAsal());
         txDeskripsi.setText(k.getDeskripsi());
         ivFotoHewan.setImageDrawable(this.getDrawable(k.getDrawableRes()));

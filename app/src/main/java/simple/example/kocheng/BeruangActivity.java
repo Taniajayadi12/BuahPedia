@@ -47,7 +47,7 @@ public class BeruangActivity extends AppCompatActivity {
         ivFotoBeruang = findViewById(R.id.gambarHewan);
 
         txJudul = findViewById(R.id.txJudul);
-        txJudul.setText("Ras Buaya");
+        txJudul.setText("Buah Tropis");
     }
 
 
@@ -62,7 +62,7 @@ public class BeruangActivity extends AppCompatActivity {
     private void beruangPertama() {
         int posAwal = 0;
         if (indeksTampil == posAwal) {
-            Toast.makeText(this,"Sudah di posisi kucing pertama",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sudah di posisi buah pertama",Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil = posAwal;
@@ -73,7 +73,7 @@ public class BeruangActivity extends AppCompatActivity {
     private void beruangTerakhir() {
         int posAkhir = beruangs.size() - 1;
         if (indeksTampil == posAkhir) {
-            Toast.makeText(this,"Sudah di posisi kucing terakhir",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sudah di posisi buah terakhir",Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil = posAkhir;
@@ -83,7 +83,7 @@ public class BeruangActivity extends AppCompatActivity {
 
     private void beruanngBerikutnya() {
         if (indeksTampil == beruangs.size() - 1) {
-            Toast.makeText(this,"Sudah di posisi kucing terakhir",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sudah di posisi buah terakhir",Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil++;
@@ -93,7 +93,7 @@ public class BeruangActivity extends AppCompatActivity {
 
     private void beruangSebelumnya() {
         if (indeksTampil == 0) {
-            Toast.makeText(this,"Sudah di posisi kucing pertama",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sudah di posisi buah pertama",Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil--;

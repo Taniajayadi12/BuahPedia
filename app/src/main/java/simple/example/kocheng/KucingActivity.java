@@ -18,7 +18,7 @@ public class KucingActivity extends AppCompatActivity {
     List<Kucing> kucings;
     int indeksTampil = 0;
     Button btnPertama,btnTerakhir,btnSebelumnya,btnBerikutnya;
-    TextView txJenis,txAsal,txDeskripsi,txJudul;
+    TextView txAsal,txDeskripsi,txJudul;
     ImageView ivFotoKucing;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +53,6 @@ public class KucingActivity extends AppCompatActivity {
     private void tampilkanProfilKucing() {
         Kucing k = kucings.get(indeksTampil);
         Log.d("KUCING","Menampilkan kucing "+k.getJenis());
-        txJenis.setText(k.getJenis());
         txAsal.setText(k.getAsal());
         txDeskripsi.setText(k.getDeskripsi());
         ivFotoKucing.setImageDrawable(this.getDrawable(k.getDrawableRes()));

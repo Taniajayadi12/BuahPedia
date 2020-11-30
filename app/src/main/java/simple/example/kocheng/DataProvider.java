@@ -45,19 +45,19 @@ public class DataProvider {
     }
 
     static void initDataBeruang(Context ctx) {
-        beruangs.add(new Beruang("aligator amerika", "Eurasia dan Amerika Utara.",
-                "Alligator merupakan kerabat dekat dari buaya, yang artinya kadal rawa. Hewan yang masuk famili Alligatoridae ini memiliki bibir yang lebih rapi menutup giginya. Mulutnya lebih lebar.", R.drawable.aligator_amerika));
-        beruangs.add(new Beruang("black caiman", "Korea",
-                " gigi caiman dinilai lebih runcing dari alligator. Selain itu, keduanya juga sama-sama tidak memiliki kelenjar garam. Tak heran kalau alligator dan caiman tak bisa tahan lama di air payau atau laut. ", R.drawable.black_caiman));
-        beruangs.add(new Beruang("caiman crocodile", "Kutub Utara",
-                "Karena satu famili dengan alligator, caiman juga memiliki mulut lebar yang menyerupai huruf “U”. Rahang atas mereka sama-sama lebih besar dari rahang bawahnya. ", R.drawable.caiman_crocodilus));
-        beruangs.add(new Beruang("snouted caiman", "Asia Tenggara",
-                 " Selain itu, keduanya juga sama-sama tidak memiliki kelenjar garam. Tak heran kalau alligator dan caiman tak bisa tahan lama di air payau atau laut.", R.drawable.snouted_caiman));
-        beruangs.add(new Beruang("spectacled caiman", "Kasawan Thailand",
-                "Karena satu famili dengan alligator, caiman juga memiliki mulut lebar yang menyerupai huruf “U”. Rahang atas mereka sama-sama lebih besar dari rahang bawahnya. Namun gigi caiman dinilai lebih runcing dari alligator. ", R.drawable.spectacled_caiman));
-        beruangs.add(new Beruang("yacare", "Anak Benua India",
-                " Selain itu, keduanya juga sama-sama tidak memiliki kelenjar garam. Tak heran kalau alligator dan caiman tak bisa tahan lama di air payau atau laut.", R.drawable.yacare_caiman
-        ));
+        beruangs.add(new Beruang("Alpukat", "Meksiko dan Amerika Tenngah.",
+                "Buah ini mengandung lemak yang baik untuk kesehatan dan rasanya enak bagi yang menyukainya.", R.drawable.alpucat));
+        beruangs.add(new Beruang("Buah Asam", "Afrika Timur",
+                "Rasa buah masam manis. Biji coklat kehitaman, mengkilap dan keras, agak persegi.", R.drawable.buah_asam));
+        beruangs.add(new Beruang("Buah Jamblang", "Asia Tropis dan Australia",
+                "Jamblang adalah buah yang berasal pohon bernama sama, yakni pohon jamblang. Pohon yang menghasilkan buah mirip dengan anggur ini memiliki nama dalam bahasa Indonesia yaitu jambu juwat, jiwat, jiwat padi. ", R.drawable.buah_jot));
+        beruangs.add(new Beruang("Jeruk", "Pegunungan Himalaya",
+                 "Jeruk adalah buah yang memiliki bentuk yang bulat dan kulit yang berwarna oranye. Buah jeruk ini memiliki berbagai macam jenis ukuran yaitu, kecil, sedang, hingga besar.", R.drawable.jeruk));
+        beruangs.add(new Beruang("Pisang", "Asia Tenggara",
+                "Image result for deskripsi singkat buah pisang\n" +
+                        "Pisang adalah nama umum yang diberikan pada tumbuhan terna raksasa berdaun besar memanjang dari suku Musaceae.", R.drawable.pisang));
+        beruangs.add(new Beruang("Rambutan", "Asia Tenggara",
+                "Rambutan adalah tanaman tropis yang tergolong ke dalam suku lerak-lerakan atau Sapindaceae.", R.drawable.rambutan));
     }
 
     public static List<Kucing> getAllKucings(Context ctx) {

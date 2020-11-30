@@ -1,4 +1,4 @@
-l<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,7 +13,7 @@ l<?xml version="1.0" encoding="utf-8"?>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Binatang Store"
+        android:text="Fruit Store"
         android:textStyle="bold"
         android:textColor="@color/design_default_color_primary_dark"
         android:textSize="29sp"
@@ -52,7 +52,7 @@ l<?xml version="1.0" encoding="utf-8"?>
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="150dp"
-            android:src="@drawable/aligator_amerika"
+            android:src="@drawable/pisang"
             android:scaleType="fitCenter"
             />
     </LinearLayout>
